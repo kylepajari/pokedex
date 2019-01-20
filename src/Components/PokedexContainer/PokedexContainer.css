@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Press-Start-2P";
+  font-style: normal;
+  font-weight: 200;
+  src: url(../../PressStart2P-Regular.ttf);
+}
+
+.pokemon-pokedex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../pokedex-dribbble.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 85%;
+  height: 85vh;
+  width: 85vw;
+  font-family: "Press-Start-2P";
+}
+
+.pokemon-pokedex > .pokemon-sprite {
+  position: absolute;
+  margin-left: -225px;
+  margin-top: -20px;
+  /* height: 180px; */
+  /* width: 180px; */
+  height: 20%;
+  width: 20%;
+}
+
+.id {
+  position: absolute;
+  height: 2vh;
+  width: 2vw;
+  text-align: left;
+  font-size: 1.2vw;
+  padding-right: 48vw;
+  padding-bottom: 30vh;
+}
+
+.pokemon-name {
+  position: absolute;
+  height: 12vh;
+  width: 29vw;
+  padding-left: 20vw;
+  padding-bottom: 20vh;
+}
+.name {
+  width: 20vw;
+  text-align: left;
+  color: #00d7fd;
+  font-size: 1.7vw;
+}
+
+.pokemon-abilities {
+  position: absolute;
+  height: 17vh;
+  width: 20vw;
+  font-size: 1.2vw;
+  font-style: italic;
+  color: blue;
+  padding-left: 60vw;
+}
+
+.pokemon-stats {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vw;
+  color: #00d7fd;
+  height: 13vh;
+  width: 45vw;
+  padding-top: 57vh;
+  padding-left: 28vw;
+}
+
+.height {
+  text-align: left;
+}
+.weight {
+  padding-left: 4vw;
+  text-align: left;
+}
+
+.navbuttons {
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-menu {
+  position: absolute;
+  transform: translate3d(11px, 0px, 0px);
+  top: 0px;
+  left: 0px;
+  will-change: transform;
+}
