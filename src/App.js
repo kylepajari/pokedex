@@ -46,7 +46,9 @@ class App extends Component {
       .then(response => response.json())
       .then(data => this.setState({ data }));
 
-    fetch("https://pokeapi.co/api/v2/pokemon/")
+    fetch(
+      "https://pokeapi-215911.firebaseapp.com/api/v2/pokemon/?offset=0&limit=151"
+    )
       .then(response => response.json())
       .then(allData => this.setState({ allData }));
   }
